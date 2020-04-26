@@ -2423,7 +2423,7 @@ span.email-notes{
 .contact-content-right {
     padding:100px;
 }
-.contact-form select, .contact-form input[type="text"], .contact-form input[type="email"] {
+.contact-form select, .contact-form input[type="text"],.contact-form input[type="password"], .contact-form input[type="email"] {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 1px solid #ccc;
     border-radius: 0;

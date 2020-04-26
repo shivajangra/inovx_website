@@ -1,73 +1,55 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
-
-                <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
-                        @csrf
-
-                        <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <div class="col-md-6 offset-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Login') }}
-                                </button>
-
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
+<div class="intro-area intro-area-3">
+    <div class="bg-wrapper">
+      <img src="{{asset('img/background/bg2.jpg')}}" alt="">
     </div>
+<div class="intro-content">
+<div class="slider-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+        <div class="slide-all-text">
+
+              <form id="loginForm" method="POST" action="{{ route('login') }}" class="contact-form">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                      <input type="email" class="email form-control @error('email') is-invalid @enderror" name="email" id="email" placeholder="Email" value="{{ old('email') }}" autofocus required data-error="Please enter your username">
+                      @error('email')
+                      <div class="help-block with-errors"><strong>{{ $message }}</strong></div>
+                      @enderror
+                  </div>
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                      <input type="password" id="password" class="form-control @error('password') is-invalid @enderror" name="password" placeholder="Password" required data-error="Please enter your password">
+                      @error('password')
+                      <div class="help-block with-errors"><strong>{{ $message }}</strong></div>
+                      @enderror
+                  </div>
+                  <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                      <button type="submit" class="add-btn contact-btn">Sign In</button>
+                      @if (Route::has('password.request'))
+                          <a class="btn btn-link" href="{{ route('password.request') }}">
+                              {{ __('Forgot Your Password?') }}
+                          </a>
+                      @endif
+                      <div id="msgSubmit" class="h3 text-center hidden"></div>
+                      <div class="clearfix"></div>
+                  </div>
+              </form>
+
+        </div>
+      </div>
+      <!-- <div class="col-md-6 col-sm-6 hidden-xs">
+        <div class="slide-images-inner wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="slide-images">
+                                <img src="{{asset('img/slider/s1.png')}}" alt="">
+                            </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
 </div>
+</div>
+</div>
+
 @endsection

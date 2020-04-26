@@ -75,7 +75,7 @@
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="contact-form">
                     <div class="row">
-                        <form id="contactForm" method="POST" action="/reachus" class="contact-form">
+                        <form id="contact_Form" method="POST" action="/reachus" class="contact-form">
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <input type="text" id="name" class="form-control" name="name" placeholder="Name" required data-error="Please enter your name">
                                 <div class="help-block with-errors"></div>
