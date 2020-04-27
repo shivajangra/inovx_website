@@ -69,6 +69,14 @@
 <div class="service-area bg-color area-padding">
     <div class="container">
        <div class="row">
+         <div class="row">
+   <div class="col-md-12 col-sm-12 col-xs-12">
+     <div class="section-headline text-center">
+       <h3>Our Domains</h3>
+       <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
+     </div>
+   </div>
+ </div>
   <div class="all-service">
       <!-- <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-service text-service">
@@ -83,7 +91,7 @@
                             <img src="{{ asset('img/service/w3.png')}}" alt="">
                         </div>
                         <div class="service-content">
-                            <h4><a href="#">Digital Marketing</a></h4>
+                            <h4><a href="#">Digital Plateform</a></h4>
                            <p>Dummy text is also used to demonstrate the appearance of different. consultants opt in to the projects.</p>
                         </div>
                     </div>
