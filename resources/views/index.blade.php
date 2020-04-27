@@ -40,7 +40,7 @@
 </div>
 <!-- End Slider Area -->
 <!-- Start Brand Area -->
-<div class="about-area area-padding">
+<!-- <div class="about-area area-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
@@ -63,7 +63,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- End Banner Area -->
 <!-- Service area start -->
 <div class="service-area bg-color area-padding">
