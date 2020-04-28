@@ -51,7 +51,7 @@
       <div id="preloader"></div>
       <header class="{{ Request::is('/') ? 'header-one' : 'header-two' }}">
           <!-- Start top bar -->
-          <div class="topbar-area fix hidden-xs">
+          <!-- <div class="topbar-area fix hidden-xs">
               <div class="container">
                   <div class="row">
                       <div class=" col-md-9 col-sm-9">
@@ -75,7 +75,7 @@
                       </div>
                   </div>
               </div>
-          </div>
+          </div> -->
           <!-- End top bar -->
           <!-- header-area start -->
           <div id="sticker" class="header-area {{ Request::is('/') ? '' : 'header-area-2' }} hidden-xs">
@@ -115,7 +115,7 @@
                                                   <li><a href="/service-detail/digital-platform">Digital Platform</a></li>
                                               </ul>
                                           </li>
-                                          <li><a class="pagess" href="your_dream">Your Dreams</a>
+                                          <li><a class="pagess" href="/your_dream">Your Dreams</a>
                                           </li>
                                           <!-- <li><a href="/blog">Blog</a> -->
                                           </li>

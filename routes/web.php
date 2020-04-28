@@ -26,7 +26,7 @@ Route::get('/faq', function () {
     return view('faq');
 });
 Route::get('/service-detail/{id}', 'ServiceController@index');
-Route::get('your_dream', 'ContactController@your_dream')->name('your_dream');
+Route::get('/your_dream', 'ContactController@your_dream')->name('your_dream');
 
 Route::get('/about', function () {
     return view('about');

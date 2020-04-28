@@ -11,11 +11,11 @@ class ContactController extends Controller
     public function your_dream()
     {
           $services = array('Software Development',
-                      'Digital Marketing',
+          'AI Development',
                       'Data Analytics',
-                      'AI Development',
-                      'Network Security',
-                      'BlockChain');
+                      'Internet Of Things (IoT)',
+                      'BlockChain Technology',
+                      'Digital Platform');
         return view('your_dream',compact('services'));
         // return view('your_dream',$services);
     }
