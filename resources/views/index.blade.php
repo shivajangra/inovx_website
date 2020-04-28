@@ -14,16 +14,17 @@
         <div class="slide-all-text">
             <!-- layer 1 -->
                             <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
-                                <h2 class="title2">Build an application powered by <span class="color">Machine Learning</span> </h2>
+                                <h2 class="title2">We work in close partnership with you, <span class="color">Supporting
+decisions and helping deliver your strategic goals</span> </h2>
                             </div>
-                            <!-- layer 2 -->
                             <div class="layer-2 wow fadeInUp" data-wow-delay="0.5s">
-                                <p>We develop effective plans to move your customers behaviour. customer can be alwayes his profit.</p>
+                                <p>Understanding your market is the key to staying ahead
+ we offer bespoke analysis and intelligence with a
+unique insight into current and future trends.</p>
                             </div>
-                            <!-- layer 3 -->
-                            <div class="layer-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <!-- <div class="layer-3 wow fadeInUp" data-wow-delay="0.7s">
                                 <a href="#" class="ready-btn" >Get In Touch</a>
-                            </div>
+                            </div> -->
         </div>
       </div>
       <div class="col-md-6 col-sm-6 hidden-xs">
@@ -72,27 +73,21 @@
          <div class="row">
    <div class="col-md-12 col-sm-12 col-xs-12">
      <div class="section-headline text-center">
-       <h3>Our Domains</h3>
-       <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
+       <h3>Our Expertise</h3>
+       <p>We can help you monitor competitor activity and
+stay on top of emerging technologies and trends</p>
      </div>
    </div>
  </div>
   <div class="all-service">
-      <!-- <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-service text-service">
-                        <h3>Digital agency <span class="color">services & Solutions</span></h3>
-                        <p>Our consultants opt in to the projects they genuinely want to work on.</p>
-                        <a class="service-btn" href="#">All solution</a>
-                    </div>
-                </div> -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-service text-service">
                         <div class="service-img">
-                            <img src="{{ asset('img/service/w3.png')}}" alt="">
+                            <img src="{{ asset('img/service/w5.png')}}" alt="">
                         </div>
                         <div class="service-content">
-                            <h4><a href="#">Digital Plateform</a></h4>
-                           <p>Dummy text is also used to demonstrate the appearance of different. consultants opt in to the projects.</p>
+                            <h4><a href="/service-detail/software-development">Software Development</a></h4>
+                            <p>Offers a range of Web, Mobile, and Desktop Applications and products, which can be used “As-Is” or can be customized to meet the exact needs of businesses of every size.</p>
                         </div>
                     </div>
                 </div>
@@ -100,13 +95,37 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-service">
                         <div class="service-img">
-                            <img src="{{ asset('img/service/w5.png')}}" alt="">
+                            <img src="{{ asset('img/service/w2.png')}}" alt="">
                         </div>
                         <div class="service-content">
-                            <h4><a href="#">Software Development</a></h4>
-                            <p>Dummy text is also used to demonstrate the appearance of different. consultants opt in to the projects.</p>
+                            <h4><a href="/service-detail/ai-development">AI development</a></h4>
+                            <p>Opportunity to reinvent your business strategies by integrating AI services, a library of modules to enable accelerated AI features development for your business.</p>
                         </div>
                     </div>
+                </div>
+                <!-- single-well end-->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-service text-service">
+                        <div class="service-img">
+                            <img src="{{ asset('img/service/w1.png')}}" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h4><a href="/service-detail/data-analytics">Data Analytics</a></h4>
+                            <p>Data science, big data analysis, business intelligence solutions and enterprise search consulting services that enable organizations to utilize the potential of data.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single-service end-->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="single-service">
+                    <div class="service-img">
+                      <img src="{{ asset('img/service/w4.png')}}" alt="">
+                    </div>
+                    <div class="service-content">
+                      <h4><a href="/service-detail/internet-of-things">Internet of Things (IoT)</a></h4>
+                      <p>Provide IoT solution according to Industry need, manage your product with proper monitoring of the environment data on your mobile app and system dashboard.</p>
+                    </div>
+                  </div>
                 </div>
                 <!-- single-service end-->
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -115,50 +134,24 @@
                             <img src="{{ asset('img/service/s6.png')}}" alt="">
                         </div>
                         <div class="service-content">
-                            <h4><a href="#">BlockChain Technology</a></h4>
-                           <p>Dummy text is also used to demonstrate the appearance of different. consultants opt in to the projects.</p>
+                            <h4><a href="/service-detail/blockchain-technology">BlockChain Technology</a></h4>
+                           <p>Secure and user-friendly solutions to meet desired use-case requirement across sectors and industries with the help of our expert team by leveraging Blockchain technology.</p>
                         </div>
                     </div>
                 </div>
                 <!-- single-service end-->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-service">
-                        <div class="service-img">
-                            <img src="{{ asset('img/service/w1.png')}}" alt="">
-                        </div>
-                        <div class="service-content">
-                            <h4><a href="#">Data Analytics</a></h4>
-                            <p>Dummy text is also used to demonstrate the appearance of different. consultants opt in to the projects.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- single-service end-->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-service text-service">
-                        <div class="service-img">
-                            <img src="{{ asset('img/service/w2.png')}}" alt="">
-                        </div>
-                        <div class="service-content">
-                            <h4><a href="#">AI development</a></h4>
-                            <p>Dummy text is also used to demonstrate the appearance of different. consultants opt in to the projects.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- single-well end-->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-service">
-                        <div class="service-img">
-                            <img src="{{ asset('img/service/w4.png')}}" alt="">
-                        </div>
-                        <div class="service-content">
-                            <h4><a href="#">Internet of Things (IoT)</a></h4>
-                            <p>Dummy text is also used to demonstrate the appearance of different. consultants opt in to the projects.</p>
-                        </div>
-                    </div>
-                </div>
+               <div class="col-md-4 col-sm-6 col-xs-12">
+                   <div class="single-service">
+                       <div class="service-img">
+                           <img src="{{ asset('img/service/w3.png')}}" alt="">
+                       </div>
+                       <div class="service-content">
+                           <h4><a href="/service-detail/digital-platform">Digital Platform</a></h4>
+                          <p>Sustainable Result Focussed Online Marketing Campaigns With years of experience in developing business marketing applications.</p>
+                       </div>
+                   </div>
+               </div>
                <!-- single-service end-->
-
   </div>
         </div>
     </div>
@@ -207,17 +200,16 @@
           <div class="single-machine row">
                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                     <div class="tabe-img">
-                                        <img src="{{ asset('img/service/s1.png')}}" alt="">
+                                        <img src="{{ asset('img/service/research.png')}}" alt="">
                                     </div>
             </div>
                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                     <div class="machine-text">
-                                        <h3>Enterprise AI and data platform solutions</h3>
-                                        <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical</p>
+                                        <h3>AI and Digital Data platform solutions</h3>
+                                        <p>Our strategic management expertise is at the core of everything we do. We help you make the critical, interdependent decisions necessary to succeed in today’s complex and uncertain world.</p>
                                         <ul>
-                                            <li><a href="#">Innovation idea latest business tecnology</a></li>
+                                            <li><a href="#">Innovation idea latest business technology</a></li>
                                             <li><a href="#">Digital content marketing online clients plateform</a></li>
-                                            <li><a href="#">Safe secure services for you online email account</a></li>
                                             <li><a href="#">Innovation idea latest business tecnology</a></li>
                                         </ul>
                                     </div>
@@ -236,12 +228,11 @@
                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                     <div class="machine-text">
                                         <h3>Design and development use latest technology</h3>
-                                        <p>And in general the content of dummy text is nonsensical. used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
+                                        <p>Fact-based decision making is becoming a reality as data intelligence is required by everyone, from rank and file employees in the organization to those in an extended enterprise including suppliers, partners and customers. Add this to your organizational stack to</p>
                                         <ul>
-                                            <li><a href="#">Innovation idea latest business tecnology</a></li>
-                                            <li><a href="#">Digital content marketing online clients plateform</a></li>
-                                            <li><a href="#">Safe secure services for you online email account</a></li>
-                                            <li><a href="#">Innovation idea latest business tecnology</a></li>
+                                            <li><a href="#">Build performance intelligence</a></li>
+                                            <li><a href="#">Build next generation data monetization models</a></li>
+                                            <li><a href="#">Move forward towards an intelligent future</a></li>
                                         </ul>
                                     </div>
             </div>
@@ -259,12 +250,11 @@
                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                     <div class="machine-text">
                                         <h3>Artificial intelligence use in automobile industry</h3>
-                                        <p>Used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical</p>
+                                        <p>Artificial Intelligence industry is an amazingly fast emerging technology being the most widely used. The whole idea has been to improve and develop software’s and machines. This combines the power of memorization and generalization</p>
                                         <ul>
-                                            <li><a href="#">Innovation idea latest business tecnology</a></li>
-                                            <li><a href="#">Digital content marketing online clients plateform</a></li>
-                                            <li><a href="#">Safe secure services for you online email account</a></li>
-                                            <li><a href="#">Innovation idea latest business tecnology</a></li>
+                                            <li><a href="#">Acquiring, designing process, and analysing images </a></li>
+                                            <li><a href="#">Algorithm development and system design</a></li>
+                                            <li><a href="#">Natural Language Processing, Speech recognition and so on.</a></li>
                                         </ul>
                                     </div>
             </div>
@@ -282,12 +272,11 @@
                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                     <div class="machine-text">
                                         <h3>machine learning platform used cloud deployment</h3>
-                                        <p>Dummy text is also used. used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensica to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
+                                        <p>A cloud deployment model is a specific configuration of environment parameters such as the accessibility and proprietorship of the deployment infrastructure and storage size. It means that deployment types vary depending on who controls the infrastructure and where it resides.</p>
                                         <ul>
-                                            <li><a href="#">Innovation idea latest business tecnology</a></li>
-                                            <li><a href="#">Digital content marketing online clients plateform</a></li>
-                                            <li><a href="#">Safe secure services for you online email account</a></li>
-                                            <li><a href="#">Innovation idea latest business tecnology</a></li>
+                                            <li><a href="#">For Hosting, Running PaaS / SaaS & Big Data.</a></li>
+                                            <li><a href="#">Perfect cloud Provisioning.</a></li>
+                                            <li><a href="#">Full cloud Api Integration and automation.</a></li>
                                         </ul>
                                     </div>
             </div>
@@ -651,139 +640,5 @@
     </div>
 </div>
 <!-- End testimonials end -->
-<!--Blog Area Start-->
-<div class="blog-area fix area-padding-2">
-    <div class="container">
-        <div class="row">
-  <div class="col-md-12 col-sm-12 col-xs-12">
-    <div class="section-headline text-center">
-      <h3>Machine Learning news</h3>
-      <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
-    </div>
-  </div>
-</div>
-        <div class="row">
-            <div class="blog-grid home-blog">
-                <!-- Start single blog -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-blog">
-                       <div class="blog-image">
-          <a class="image-scale" href="#">
-            <img src="{{ asset('img/blog/b1.jpg')}}" alt="">
-          </a>
-        </div>
-                        <div class="blog-content">
-                           <div class="blog-meta">
-                                <span class="admin-type">
-                                    <i class="fa fa-user"></i>
-                                    Admin
-                                </span>
-                                <span class="date-type">
-                                    <i class="fa fa-calendar"></i>
-                                    20 july, 2019
-                                </span>
-                                <span class="comments-type">
-                                    <i class="fa fa-comment-o"></i>
-                                    13
-                                </span>
-                            </div>
-                            <a href="#">
-                                <h4>Creative design clients response is better</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End single blog -->
-                <!-- Start single blog -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-blog">
-                       <div class="blog-image">
-          <a class="image-scale" href="#">
-            <img src="{{ asset('img/blog/b2.jpg')}}" alt="">
-          </a>
-        </div>
-                        <div class="blog-content">
-                           <div class="blog-meta">
-                               <span class="admin-type">
-                                    <i class="fa fa-user"></i>
-                                    Admin
-                                </span>
-                                <span class="date-type">
-                                   <i class="fa fa-calendar"></i>
-                                    13 may, 2018
-                                </span>
-                                <span class="comments-type">
-                                    <i class="fa fa-comment-o"></i>
-                                    16
-                                </span>
-                            </div>
-                            <a href="#">
-                                <h4>Web development is a best work in future world</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-blog">
-                        <div class="blog-image">
-          <a class="image-scale" href="#">
-            <img src="{{ asset('img/blog/b3.jpg')}}" alt="">
-          </a>
-        </div>
-                        <div class="blog-content">
-                           <div class="blog-meta">
-                                <span class="admin-type">
-                                    <i class="fa fa-user"></i>
-                                    Admin
-                                </span>
-                                <span class="date-type">
-                                   <i class="fa fa-calendar"></i>
-                                    24 april, 2019
-                                </span>
-                                <span class="comments-type">
-                                    <i class="fa fa-comment-o"></i>
-                                    07
-                                </span>
-                            </div>
-                            <a href="#">
-                                <h4>You can trust me and business with together</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End single blog -->
-                <div class="hidden-md hidden-lg col-sm-6 col-xs-12">
-                    <div class="single-blog">
-                        <div class="blog-image">
-          <a class="image-scale" href="#">
-            <img src="{{ asset('img/blog/b4.jpg')}}" alt="">
-          </a>
-        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="admin-type">
-                                    <i class="fa fa-user"></i>
-                                    Admin
-                                </span>
-                                <span class="date-type">
-                                   <i class="fa fa-calendar"></i>
-                                    28 june, 2019
-                                </span>
-                                <span class="comments-type">
-                                    <i class="fa fa-comment-o"></i>
-                                    32
-                                </span>
-                            </div>
-                            <a href="#">
-                                <h4>business man want to be benifit any way</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End single blog -->
-            </div>
-        </div>
-        <!-- End row -->
-    </div>
-</div>
+ 
 @endsection

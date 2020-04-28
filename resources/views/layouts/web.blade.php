@@ -86,7 +86,7 @@
                           <div class="logo">
                               <!-- Brand -->
                               <a class="navbar-brand " href="/">
-                                  <img src="img/logo/inovx.png" alt="">
+                                  <img src="{{asset('img/logo/inovx.png')}}" alt="">
                               </a>
                           </div>
                           <!-- logo end -->
@@ -105,19 +105,19 @@
                                           </li>
                                           <li><a href="/about">About</a>
                                           </li>
-                                          <li><a class="pagess" href="#">Domain</a>
+                                          <li><a class="pagess" href="#">Expertise</a>
                                               <ul class="sub-menu">
-                                                  <li><a href="/service_detail">Software Development</a></li>
-                                                  <li><a href="/service_detail">Digital Marketing</a></li>
-                                                  <li><a href="/service_detail">Data Analytics</a></li>
-                                                  <li><a href="/service_detail">AI Development</a></li>
-                                                  <li><a href="/service_detail">Network Security</a></li>
-                                                  <li><a href="/service_detail">BlockChain</a></li>
+                                                  <li><a href="/service-detail/software-development">Software Development</a></li>
+                                                  <li><a href="/service-detail/ai-development">AI Development</a></li>
+                                                  <li><a href="/service-detail/data-analytics">Data Analytics</a></li>
+                                                  <li><a href="/service-detail/internet-of-things">Internet of Things (IoT)</a></li>
+                                                  <li><a href="/service-detail/blockchain-technology">BlockChain Technology</a></li>
+                                                  <li><a href="/service-detail/digital-platform">Digital Platform</a></li>
                                               </ul>
                                           </li>
                                           <li><a class="pagess" href="your_dream">Your Dreams</a>
                                           </li>
-                                          <li><a href="/blog">Blog</a>
+                                          <!-- <li><a href="/blog">Blog</a> -->
                                           </li>
                                           <li><a href="/contacts">contacts</a></li>
                                       </ul>
@@ -183,7 +183,7 @@
                             <div class="footer-content logo-footer">
                                 <div class="footer-head">
                                     <div class="footer-logo">
-                                    	<a class="footer-black-logo" href="#"><img src="img/logo/inovx.png" alt=""></a>
+                                    	<a class="footer-black-logo" href="#"><img src="{{asset('img/logo/inovx.png')}}" alt=""></a>
                                     </div>
                                     <p>
                                         Are you looking for professional advice for your new business. Are you looking for professional advice for your new business. Are you looking for professional advice for your new business.
@@ -268,11 +268,10 @@
             <div class="footer-area-bottom">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="copyright">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="copyright text-center">
                                 <p>
-                                    Copyright © 2020
-                                    <a href="#">Inovx</a> All Rights Reserved
+                                     © Inovx Private Limited
                                 </p>
                             </div>
                         </div>

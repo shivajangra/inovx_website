@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use \App\Contact;
+use \App\Jointeam;
 
 class ContactController extends Controller
 {
@@ -19,10 +21,15 @@ class ContactController extends Controller
     }
 
     public function jointeam(Request $request){
-      dd($request);
+      // dd($request);
+      Jointeam::create($request->all());
+      return redirect()->back()->with('success','Thank You ! We will get back to you soon');
     }
-    
+
     public function reachus(Request $request){
-      dd($request);
+      // dd($request);
+      Contact::create($request->all());
+      return redirect()->back()->with('success','Thank You ! We will get back to you soon');
+
     }
 }
